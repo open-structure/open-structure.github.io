@@ -293,19 +293,13 @@
              <img  src="./static/dataset_img/box2.gif" alt="GIF Image"  border="1">
              <img  src="./static/dataset_img/sphere1.gif" alt="GIF Image"  border="1">
           </div>
-
         </div>
       </div>
     </div>
     <!--/ Matting. -->
 
-    <!-- Animation. -->
-    <div class="columns is-centered">
-      <div class="column is-full-width">
-        <h2 class="title is-3">Animation</h2>
-
-        <!-- Interpolating. -->
-        <h3 class="title is-4">Interpolating states</h3>
+     <!-- Interpolating. -->
+        <h2 class="title is-4">Interpolating states</h2>
         <div class="content has-text-justified">
           <p>
             We can also animate the scene by interpolating the deformation latent codes of two input
@@ -315,7 +309,7 @@
         </div>
         <div class="columns is-vcentered interpolation-panel">
           <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_start.jpg"
+            <img src="./static/images/interpolate_start.png"
                  class="interpolation-image"
                  alt="Interpolate start reference image."/>
             <p>Start Frame</p>
@@ -329,18 +323,167 @@
                    step="1" min="0" max="100" value="0" type="range">
           </div>
           <div class="column is-3 has-text-centered">
-            <img src="./static/images/interpolate_end.jpg"
+            <img src="./static/images/interpolate_end.png"
                  class="interpolation-image"
                  alt="Interpolation end reference image."/>
             <p class="is-bold">End Frame</p>
           </div>
         </div>
+
+    <!-- Animation. -->
+    <div class="columns is-centered">
+      <div class="column is-full-width">
+        <h2 class="title is-3">Download Sequences</h2>
+        
+          <table border="1">
+            <tr>
+              <td>office0: <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/office0/img.zip">img |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/office0/observation.zip">observation |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/office0/baseline.zip">initial factor graph |</a>
+              </td>
+              <td>livingroom0: <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/livingroom0/img.zip">img |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/livingroom0/observation.zip">observation |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/livingroom0/baseline.zip">initial factor graph |</a>
+              </td>
+              <td>office1: <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/office1/img.zip">img |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/office1/observation.zip">observation |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/office1/baseline.zip">initial factor graph |</a>
+              </td>
+              <td>livingroom1: <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/livingroom1/img.zip">img |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/livingroom1/observation.zip">observation |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/livingroom1/baseline.zip">initial factor graph |</a>
+              </td>
+            </tr>
+            <tr>
+              <td> <img  src="./static/dataset_img/of0.png" alt="GIF Image"  border="1"></td>
+              <td><img  src="./static/dataset_img/lrkt0.png" alt="GIF Image"  border="1"></td>
+              <td> <img  src="./static/dataset_img/of1.png" alt="GIF Image"  border="1"></td>
+              <td><img  src="./static/dataset_img/lrkt1.png" alt="GIF Image"  border="1"></td>
+            </tr>
+            <tr>
+             <td>office0: <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/office2/img.zip">img |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/office2/observation.zip">observation |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/office2/baseline.zip">initial factor graph |</a>
+              </td>
+              <td>livingroom0: <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/livingroom2/img.zip">img |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/livingroom2/observation.zip">observation |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/livingroom2/baseline.zip">initial factor graph |</a>
+              </td>
+              <td>office1: <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/office3/img.zip">img |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/office3/observation.zip">observation |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/office3/baseline.zip">initial factor graph |</a>
+              </td>
+              <td>livingroom1: <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/livingroom3/img.zip">img |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/livingroom3/observation.zip">observation |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/livingroom3/baseline.zip">initial factor graph |</a>
+              </td>
+            </tr>
+            <tr>
+              <td> <img  src="./static/dataset_img/of2.png" alt="GIF Image"  border="1"></td>
+              <td><img  src="./static/dataset_img/lrkt2.png" alt="GIF Image"  border="1"></td>
+              <td> <img  src="./static/dataset_img/of3.png" alt="GIF Image"  border="1"></td>
+              <td><img  src="./static/dataset_img/lrkt3.png" alt="GIF Image"  border="1"></td>
+            </tr>
+           <tr>
+              <td>office0: <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/office2/img.zip">img |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/office2/observation.zip">observation |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/office2/baseline.zip">initial factor graph |</a>
+              </td>
+              <td>livingroom0: <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/livingroom2/img.zip">img |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/livingroom2/observation.zip">observation |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/livingroom2/baseline.zip">initial factor graph |</a>
+              </td>
+              <td>office1: <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/office3/img.zip">img |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/office3/observation.zip">observation |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/office3/baseline.zip">initial factor graph |</a>
+              </td>
+              <td>livingroom1: <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/livingroom3/img.zip">img |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/livingroom3/observation.zip">observation |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/livingroom3/baseline.zip">initial factor graph |</a>
+              </td>
+            </tr>
+            <tr>
+              <td> <img  src="./static/dataset_img/nostructure_texture_far.png" alt="GIF Image"  border="1"></td>
+              <td><img  src="./static/dataset_img/nostructure_texture_near_withloop.png" alt="GIF Image"  border="1"></td>
+              <td> <img  src="./static/dataset_img/structure_notexture_far.png" alt="GIF Image"  border="1"></td>
+              <td><img  src="./static/dataset_img/structure_notexture_near.png" alt="GIF Image"  border="1"></td>
+            </tr>
+            <tr>
+              <td>str_tex_near: <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/office2/img.zip">img |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/office2/observation.zip">observation |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/office2/baseline.zip">initial factor graph |</a>
+              </td>
+              <td>carwelding: <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/livingroom2/img.zip">img |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/livingroom2/observation.zip">observation |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/livingroom2/baseline.zip">initial factor graph |</a>
+              </td>
+              <td>hospital: <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/office3/img.zip">img |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/office3/observation.zip">observation |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/office3/baseline.zip">initial factor graph |</a>
+              </td>
+              <td>japanesealley: <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/livingroom3/img.zip">img |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/livingroom3/observation.zip">observation |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/livingroom3/baseline.zip">initial factor graph |</a>
+              </td>
+            </tr>
+            <tr>
+              <td> <img  src="./static/dataset_img/structure_texture_near.png" alt="GIF Image"  border="1"></td>
+              <td><img  src="./static/dataset_img/carwelding.png" alt="GIF Image"  border="1"></td>
+              <td> <img  src="./static/dataset_img/hospital.png" alt="GIF Image"  border="1"></td>
+              <td><img  src="./static/dataset_img/japanesealley.png" alt="GIF Image"  border="1"></td>
+            </tr>
+            </table>
+            
+            <table border="1">
+            <tr>
+              <td>box1: <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/office2/img.zip">img |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/office2/observation.zip">observation |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/office2/baseline.zip">initial factor graph |</a>
+              </td>
+              <td>sphere1: <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/livingroom2/img.zip">img |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/livingroom2/observation.zip">observation |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/livingroom2/baseline.zip">initial factor graph |</a>
+              </td>
+              <td>corridor1: <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/office3/img.zip">img |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/office3/observation.zip">observation |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/office3/baseline.zip">initial factor graph |</a>
+              </td>
+            </tr>
+            <tr>
+              <td> <img  src="./static/dataset_img/box1.png" alt="GIF Image"  border="1"></td>
+              <td><img  src="./static/dataset_img/sphere1.png" alt="GIF Image"  border="1"></td>
+              <td> <img  src="./static/dataset_img/corridor1.png" alt="GIF Image"  border="1"></td>
+            </tr>
+            <tr>
+              <td>box2: <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/office2/img.zip">img |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/office2/observation.zip">observation |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/office2/baseline.zip">initial factor graph |</a>
+              </td>
+              <td>sphere2: <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/livingroom2/img.zip">img |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/livingroom2/observation.zip">observation |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/livingroom2/baseline.zip">initial factor graph |</a>
+              </td>
+              <td>corridor2: <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/office3/img.zip">img |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/office3/observation.zip">observation |</a>
+                  <a href="https://github.com/yanyan-li/Open-Structure/blob/main/dataset/office3/baseline.zip">initial factor graph |</a>
+              </td>
+            </tr>
+            <tr>
+              <td> <img  src="./static/dataset_img/box2.png" alt="GIF Image"  border="1"></td>
+              <td><img  src="./static/dataset_img/sphere2.png" alt="GIF Image"  border="1"></td>
+              <td><img  src="./static/dataset_img/corridor2.png" alt="GIF Image"  border="1"></td>
+            </tr>
+          </table>
+        
+        
         <br/>
         <!--/ Interpolating. -->
-
+  </div>
       </div>
-    </div>
-    <!--/ Animation. -->
+      <!--/ Animation. -->
+  
+
+
 
 
     <!-- Concurrent Work. -->
