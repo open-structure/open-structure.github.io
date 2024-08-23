@@ -298,12 +298,11 @@
     <!--/ Matting. -->
 
      <!-- Interpolating. -->
-        <h2 class="title is-4">Interpolating states</h2>
+        <h2 class="title is-4">ICL-NUIM VS. Open-Structure</h2>
         <div class="content has-text-justified">
-          <p>
-            We can also animate the scene by interpolating the deformation latent codes of two input
-            frames. Use the slider here to linearly interpolate between the left frame and the right
-            frame.
+          <p> 
+         Instead of raw images, Open-Structure provides <b>point measurements</b>, <b>line measurements</b>, <b>point landmarks</b>, <b>line landmarks</b>, <b>correspondences</b>, and <b>structural 3D lines</b> to the community. 
+         This hot-swappable data format allows for flexible, effective, and fair evaluation of SLAM system modules.
           </p>
         </div>
         <div class="columns is-vcentered interpolation-panel">
@@ -311,7 +310,7 @@
             <img src="./static/images/interpolate_start.png"
                  class="interpolation-image"
                  alt="Interpolate start reference image."/>
-            <p>Start Frame</p>
+            <p>ICL-NUIM</p>
           </div>
           <div class="column interpolation-video-column">
             <div id="interpolation-image-wrapper">
@@ -319,15 +318,16 @@
             </div>
             <input class="slider is-fullwidth is-large is-info"
                    id="interpolation-slider"
-                   step="1" min="0" max="12" value="0" type="range">
+                   step="1" min="2" max="11" value="0" type="range">
           </div>
           <div class="column is-3 has-text-centered">
             <img src="./static/images/interpolate_end.png"
                  class="interpolation-image"
                  alt="Interpolation end reference image."/>
-            <p class="is-bold">End Frame</p>
+            <p class="is-bold">Open-Structure</p>
           </div>
         </div>
+        <br/>
 
     <!-- Animation. -->
     <div class="columns is-centered">
